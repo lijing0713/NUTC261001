@@ -100,7 +100,6 @@ body {
   color: white;
   font-weight: bold;
 }
-
 /* 集合提醒 */
 .notice-card {
   position: relative;
@@ -112,15 +111,12 @@ body {
   border-radius: 12px;
   background: #fff8e8;
 }
-
 .notice-card h2 {
   margin: 8px 0;
 }
-
 .notice-card p {
   margin-bottom: 0;
 }
-
 .notice-badge {
   display: inline-block;
   padding: 3px 12px;
@@ -130,7 +126,6 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
-
 /* 報名區塊 */
 .signup-card {
   width: 84%;
@@ -147,7 +142,6 @@ body {
   margin-top: 0;
   color: #17324d;
 }
-
 /* 報名按鈕 */
 .signup-button {
   display: inline-block;
@@ -160,11 +154,9 @@ body {
   font-weight: bold;
   transition: background 0.2s ease;
 }
-
 .signup-button:hover {
   background: #c95338;
 }
-
 /* 頁尾 */
 .site-footer {
   padding: 20px;
@@ -172,39 +164,6 @@ body {
   color: white;
   text-align: center;
 }
-
 .site-footer p {
   margin: 0;
-}
-
-/* 手機版排版 */
-@media (max-width: 600px) {
-  .site-header {
-    padding: 16px 5%;
-  }
-
-  .site-header nav {
-    gap: 8px 18px;
-  }
-
-  .hero {
-    min-height: auto;
-    padding: 48px 7%;
-  }
-
-  .hero h2 {
-    font-size: 32px;
-  }
-
-  .event-card,
-  .notice-card,
-  .signup-card {
-    width: 90%;
-    padding: 24px 20px;
-  }
-
-  .badge {
-    right: 16px;
-    font-size: 14px;
-  }
 }
