@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: Arial, "Noto Sans TC", sans-serif;
   line-height: 1.8;
-  color: #000000;
+  color: #243447;
   background: #f4f7f9;
 }
 
@@ -22,7 +22,7 @@ body {
   z-index: 10;
   padding: 16px 8%;
   text-align: center;
-  background: #25d2e9;
+  background: #17324d;
   color: white;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .site-header a:hover {
-  color: #e9a9e4;
+  color: #f4c095;
 }
 
 /* 主視覺區 */
@@ -96,10 +96,11 @@ body {
   right: 24px;
   padding: 8px 14px;
   border-radius: 999px;
-  background: #f06cb4;
+  background: #e76f51;
   color: white;
   font-weight: bold;
 }
+
 /* 集合提醒 */
 .notice-card {
   position: relative;
@@ -107,25 +108,29 @@ body {
   max-width: 760px;
   margin: 30px auto;
   padding: 24px 30px;
-  border-left: 6px solid #85124f;
+  border-left: 6px solid #e9b44c;
   border-radius: 12px;
-  background: #eed2dd;
+  background: #fff8e8;
 }
+
 .notice-card h2 {
   margin: 8px 0;
 }
+
 .notice-card p {
   margin-bottom: 0;
 }
+
 .notice-badge {
   display: inline-block;
   padding: 3px 12px;
   border-radius: 999px;
-  background: #ebb9ca;
-  color: #851d3f;
+  background: #f2dfae;
+  color: #694d13;
   font-size: 14px;
   font-weight: bold;
 }
+
 /* 報名區塊 */
 .signup-card {
   width: 84%;
@@ -142,6 +147,7 @@ body {
   margin-top: 0;
   color: #17324d;
 }
+
 /* 報名按鈕 */
 .signup-button {
   display: inline-block;
@@ -154,9 +160,11 @@ body {
   font-weight: bold;
   transition: background 0.2s ease;
 }
+
 .signup-button:hover {
   background: #c95338;
 }
+
 /* 頁尾 */
 .site-footer {
   padding: 20px;
@@ -164,6 +172,39 @@ body {
   color: white;
   text-align: center;
 }
+
 .site-footer p {
   margin: 0;
+}
+
+/* 手機版排版 */
+@media (max-width: 600px) {
+  .site-header {
+    padding: 16px 5%;
+  }
+
+  .site-header nav {
+    gap: 8px 18px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 48px 7%;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .event-card,
+  .notice-card,
+  .signup-card {
+    width: 90%;
+    padding: 24px 20px;
+  }
+
+  .badge {
+    right: 16px;
+    font-size: 14px;
+  }
 }
