@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: Arial, "Noto Sans TC", sans-serif;
   line-height: 1.8;
-  color: #243447;
+  color: #0e11aa;
   background: #f4f7f9;
 }
 
@@ -22,7 +22,7 @@ body {
   z-index: 10;
   padding: 16px 8%;
   text-align: center;
-  background: #17324d;
+  background: #25d2e9;
   color: white;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .site-header a:hover {
-  color: #f4c095;
+  color: #e9a9e4;
 }
 
 /* 主視覺區 */
@@ -96,7 +96,7 @@ body {
   right: 24px;
   padding: 8px 14px;
   border-radius: 999px;
-  background: #e76f51;
+  background: #f06cb4;
   color: white;
   font-weight: bold;
 }
